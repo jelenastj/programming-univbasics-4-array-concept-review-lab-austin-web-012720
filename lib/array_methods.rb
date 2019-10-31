@@ -2,8 +2,8 @@ def find_element_index(array, value_to_find)
   counter = 0 
   
   while array(counter) do
-  if sharks.each do |shark|
-     array.index (value_to_find)
+  if array.include?(value_to_find)
+     puts array.index (value_to_find)
   end
   
 end
