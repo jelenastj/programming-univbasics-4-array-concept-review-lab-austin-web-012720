@@ -3,8 +3,7 @@ def find_element_index(array, value_to_find)
   
   while array(counter) do
   
-      puts counter
-      counter+=1
+     value_to_find.index 
   end
   
 end
