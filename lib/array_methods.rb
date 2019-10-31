@@ -1,9 +1,7 @@
 def find_element_index(array, value_to_find)
-  counter = 0
-  new_array=[]
   while array[counter] do
-    new_array.push(counter)
-      counter +=1
+   if array.include? "value_to_find"
+      puts counter
 end
 end
 
